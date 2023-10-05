@@ -1,0 +1,17 @@
+bibentry(bibtype = "article",
+	title = "Satellite Image Time Series Analysis for Big Earth Observation Data",
+    author = c(person("Rolf", "Simoes"),
+               person("Gilberto", "Camara"),
+               person("Gilberto",  "Queiroz"),
+               person("Felipe", "Souza"),
+               person("Pedro", "Andrade"),
+               person("Lorena", "Santos"),
+               person("Alexandre", "Carvalho"),
+               person("Karine", "Ferreira")),
+    journal = "Remote Sensing",
+    year = "2021",
+	volume = "13",
+    number = "13",
+    pages = "2428",
+	doi = "10.3390/rs13132428"
+)

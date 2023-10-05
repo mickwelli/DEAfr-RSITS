@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Satellite Image Time Series Analysis for Earth Observation Data
+Cubes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Satellite Image Time Series Analysis for Earth Observation Data
+Cubes
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;sits&rsquo; version 1.4.1</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../demo">Code demos</a>.  Use <a href="../../utils/help/demo">demo()</a> to run them.</li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="# "> </a>
+<a href="#C">C</a>
+<a href="#P">P</a>
+<a href="#S">S</a>
+<a href="#misc">misc</a>
+</p>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="sits-package.html">sits-package</a></td>
+<td>sits</td></tr>
+</table>
+
+<h2><a id="C">-- C --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="cerrado_2classes.html">cerrado_2classes</a></td>
+<td>Samples of classes Cerrado and Pasture</td></tr>
+</table>
+
+<h2><a id="P">-- P --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="plot.html">plot</a></td>
+<td>Plot time series</td></tr>
+<tr><td style="width: 25%;"><a href="plot.class_cube.html">plot.class_cube</a></td>
+<td>Plot classified images</td></tr>
+<tr><td style="width: 25%;"><a href="plot.geo_distances.html">plot.geo_distances</a></td>
+<td>Make a kernel density plot of samples distances.</td></tr>
+<tr><td style="width: 25%;"><a href="plot.patterns.html">plot.patterns</a></td>
+<td>Plot patterns that describe classes</td></tr>
+<tr><td style="width: 25%;"><a href="plot.predicted.html">plot.predicted</a></td>
+<td>Plot time series predictions</td></tr>
+<tr><td style="width: 25%;"><a href="plot.probs_cube.html">plot.probs_cube</a></td>
+<td>Plot probability cubes</td></tr>
+<tr><td style="width: 25%;"><a href="plot.raster_cube.html">plot.raster_cube</a></td>
+<td>Plot RGB data cubes</td></tr>
+<tr><td style="width: 25%;"><a href="plot.rfor_model.html">plot.rfor_model</a></td>
+<td>Plot Random Forest model</td></tr>
+<tr><td style="width: 25%;"><a href="plot.segments.html">plot.segments</a></td>
+<td>Plot Segments</td></tr>
+<tr><td style="width: 25%;"><a href="plot.html">plot.sits</a></td>
+<td>Plot time series</td></tr>
+<tr><td style="width: 25%;"><a href="plot.sits_accuracy.html">plot.sits_accuracy</a></td>
+<td>Plot confusion matrix</td></tr>
+<tr><td style="width: 25%;"><a href="plot.sits_cluster.html">plot.sits_cluster</a></td>
+<td>Plot a dendrogram cluster</td></tr>
+<tr><td style="width: 25%;"><a href="plot.som_evaluate_cluster.html">plot.som_evaluate_cluster</a></td>
+<td>Plot confusion between clusters</td></tr>
+<tr><td style="width: 25%;"><a href="plot.som_map.html">plot.som_map</a></td>
+<td>Plot a SOM map</td></tr>
+<tr><td style="width: 25%;"><a href="plot.torch_model.html">plot.torch_model</a></td>
+<td>Plot Torch (deep learning) model</td></tr>
+<tr><td style="width: 25%;"><a href="plot.uncertainty_cube.html">plot.uncertainty_cube</a></td>
+<td>Plot uncertainty cubes</td></tr>
+<tr><td style="width: 25%;"><a href="plot.variance_cube.html">plot.variance_cube</a></td>
+<td>Plot variance cubes</td></tr>
+<tr><td style="width: 25%;"><a href="plot.xgb_model.html">plot.xgb_model</a></td>
+<td>Plot XGB model</td></tr>
+<tr><td style="width: 25%;"><a href="point_mt_6bands.html">point_mt_6bands</a></td>
+<td>A time series sample with data from 2000 to 2016</td></tr>
+</table>
+
+<h2><a id="S">-- S --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="samples_l8_rondonia_2bands.html">samples_l8_rondonia_2bands</a></td>
+<td>Samples of Amazon tropical forest biome for deforestation analysis</td></tr>
+<tr><td style="width: 25%;"><a href="samples_modis_ndvi.html">samples_modis_ndvi</a></td>
+<td>Samples of nine classes for the state of Mato Grosso</td></tr>
+<tr><td style="width: 25%;"><a href="sits-package.html">sits</a></td>
+<td>sits</td></tr>
+<tr><td style="width: 25%;"><a href="sits_accuracy.html">sits_accuracy</a></td>
+<td>Assess classification accuracy (area-weighted method)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_accuracy.html">sits_accuracy.class_cube</a></td>
+<td>Assess classification accuracy (area-weighted method)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_accuracy.html">sits_accuracy.sits</a></td>
+<td>Assess classification accuracy (area-weighted method)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_apply.html">sits_apply</a></td>
+<td>Apply a function on a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_apply.html">sits_apply.raster_cube</a></td>
+<td>Apply a function on a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_apply.html">sits_apply.sits</a></td>
+<td>Apply a function on a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_as_sf.html">sits_as_sf</a></td>
+<td>Return a sits_tibble or raster_cube as an sf object.</td></tr>
+<tr><td style="width: 25%;"><a href="sits_as_sf.html">sits_as_sf.raster_cube</a></td>
+<td>Return a sits_tibble or raster_cube as an sf object.</td></tr>
+<tr><td style="width: 25%;"><a href="sits_as_sf.html">sits_as_sf.sits</a></td>
+<td>Return a sits_tibble or raster_cube as an sf object.</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bands.html">sits_bands</a></td>
+<td>Get the names of the bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bands.html">sits_bands.patterns</a></td>
+<td>Get the names of the bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bands.html">sits_bands.raster_cube</a></td>
+<td>Get the names of the bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bands.html">sits_bands.sits</a></td>
+<td>Get the names of the bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bands.html">sits_bands.sits_model</a></td>
+<td>Get the names of the bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bands.html">sits_bands&lt;-</a></td>
+<td>Get the names of the bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bands.html">sits_bands&lt;-.raster_cube</a></td>
+<td>Get the names of the bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bands.html">sits_bands&lt;-.sits</a></td>
+<td>Get the names of the bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bbox.html">sits_bbox</a></td>
+<td>Get the bounding box of the data</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bbox.html">sits_bbox.raster_cube</a></td>
+<td>Get the bounding box of the data</td></tr>
+<tr><td style="width: 25%;"><a href="sits_bbox.html">sits_bbox.sits</a></td>
+<td>Get the bounding box of the data</td></tr>
+<tr><td style="width: 25%;"><a href="sits_classify.html">sits_classify</a></td>
+<td>Classify time series or data cubes</td></tr>
+<tr><td style="width: 25%;"><a href="sits_classify.html">sits_classify.raster_cube</a></td>
+<td>Classify time series or data cubes</td></tr>
+<tr><td style="width: 25%;"><a href="sits_classify.html">sits_classify.sits</a></td>
+<td>Classify time series or data cubes</td></tr>
+<tr><td style="width: 25%;"><a href="sits_cluster_clean.html">sits_cluster_clean</a></td>
+<td>Removes labels that are minority in each cluster.</td></tr>
+<tr><td style="width: 25%;"><a href="sits_cluster_dendro.html">sits_cluster_dendro</a></td>
+<td>Find clusters in time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_cluster_frequency.html">sits_cluster_frequency</a></td>
+<td>Show label frequency in each cluster produced by dendrogram analysis</td></tr>
+<tr><td style="width: 25%;"><a href="sits_colors.html">sits_colors</a></td>
+<td>Function to retrieve sits color table</td></tr>
+<tr><td style="width: 25%;"><a href="sits_colors_reset.html">sits_colors_reset</a></td>
+<td>Function to reset sits color table</td></tr>
+<tr><td style="width: 25%;"><a href="sits_colors_set.html">sits_colors_set</a></td>
+<td>Function to set sits color table</td></tr>
+<tr><td style="width: 25%;"><a href="sits_colors_show.html">sits_colors_show</a></td>
+<td>Function to show colors in SITS</td></tr>
+<tr><td style="width: 25%;"><a href="sits_combine_predictions.html">sits_combine_predictions</a></td>
+<td>Estimate ensemble prediction based on list of probs cubes</td></tr>
+<tr><td style="width: 25%;"><a href="sits_combine_predictions.html">sits_combine_predictions.average</a></td>
+<td>Estimate ensemble prediction based on list of probs cubes</td></tr>
+<tr><td style="width: 25%;"><a href="sits_combine_predictions.html">sits_combine_predictions.uncertainty</a></td>
+<td>Estimate ensemble prediction based on list of probs cubes</td></tr>
+<tr><td style="width: 25%;"><a href="sits_confidence_sampling.html">sits_confidence_sampling</a></td>
+<td>Suggest high confidence samples to increase the training set.</td></tr>
+<tr><td style="width: 25%;"><a href="sits_config.html">sits_config</a></td>
+<td>Configure parameters for sits package</td></tr>
+<tr><td style="width: 25%;"><a href="sits_config_show.html">sits_config_show</a></td>
+<td>Show current sits configuration</td></tr>
+<tr><td style="width: 25%;"><a href="sits_cube.html">sits_cube</a></td>
+<td>Create data cubes from image collections</td></tr>
+<tr><td style="width: 25%;"><a href="sits_cube.html">sits_cube.local_cube</a></td>
+<td>Create data cubes from image collections</td></tr>
+<tr><td style="width: 25%;"><a href="sits_cube.html">sits_cube.stac_cube</a></td>
+<td>Create data cubes from image collections</td></tr>
+<tr><td style="width: 25%;"><a href="sits_cube_copy.html">sits_cube_copy</a></td>
+<td>Copy the images of a cube to a local directory</td></tr>
+<tr><td style="width: 25%;"><a href="sits_factory_function.html">sits_factory_function</a></td>
+<td>Create a closure for calling functions with and without data</td></tr>
+<tr><td style="width: 25%;"><a href="sits_filter.html">sits_filter</a></td>
+<td>Filter time series with smoothing filter</td></tr>
+<tr><td style="width: 25%;"><a href="sits_formula_linear.html">sits_formula_linear</a></td>
+<td>Define a linear formula for classification models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_formula_logref.html">sits_formula_logref</a></td>
+<td>Define a loglinear formula for classification models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_geo_dist.html">sits_geo_dist</a></td>
+<td>Compute the minimum distances among samples and prediction points.</td></tr>
+<tr><td style="width: 25%;"><a href="sits_get_data.html">sits_get_data</a></td>
+<td>Get time series from data cubes and cloud services</td></tr>
+<tr><td style="width: 25%;"><a href="sits_get_data.html">sits_get_data.csv</a></td>
+<td>Get time series from data cubes and cloud services</td></tr>
+<tr><td style="width: 25%;"><a href="sits_get_data.html">sits_get_data.data.frame</a></td>
+<td>Get time series from data cubes and cloud services</td></tr>
+<tr><td style="width: 25%;"><a href="sits_get_data.html">sits_get_data.default</a></td>
+<td>Get time series from data cubes and cloud services</td></tr>
+<tr><td style="width: 25%;"><a href="sits_get_data.html">sits_get_data.segments</a></td>
+<td>Get time series from data cubes and cloud services</td></tr>
+<tr><td style="width: 25%;"><a href="sits_get_data.html">sits_get_data.sf</a></td>
+<td>Get time series from data cubes and cloud services</td></tr>
+<tr><td style="width: 25%;"><a href="sits_get_data.html">sits_get_data.shp</a></td>
+<td>Get time series from data cubes and cloud services</td></tr>
+<tr><td style="width: 25%;"><a href="sits_get_data.html">sits_get_data.sits</a></td>
+<td>Get time series from data cubes and cloud services</td></tr>
+<tr><td style="width: 25%;"><a href="sits_join_segments.html">sits_join_segments</a></td>
+<td>Return segments from a classified set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_kfold_validate.html">sits_kfold_validate</a></td>
+<td>Cross-validate time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_labels.html">sits_labels</a></td>
+<td>Get labels associated to a data set</td></tr>
+<tr><td style="width: 25%;"><a href="sits_labels.html">sits_labels.patterns</a></td>
+<td>Get labels associated to a data set</td></tr>
+<tr><td style="width: 25%;"><a href="sits_labels.html">sits_labels.raster_cube</a></td>
+<td>Get labels associated to a data set</td></tr>
+<tr><td style="width: 25%;"><a href="sits_labels.html">sits_labels.sits</a></td>
+<td>Get labels associated to a data set</td></tr>
+<tr><td style="width: 25%;"><a href="sits_labels.html">sits_labels.sits_model</a></td>
+<td>Get labels associated to a data set</td></tr>
+<tr><td style="width: 25%;"><a href="tick-sits_labels-set-tick.html">sits_labels&lt;-</a></td>
+<td>Change the labels of a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="tick-sits_labels-set-tick.html">sits_labels&lt;-.class_cube</a></td>
+<td>Change the labels of a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="tick-sits_labels-set-tick.html">sits_labels&lt;-.probs_cube</a></td>
+<td>Change the labels of a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="tick-sits_labels-set-tick.html">sits_labels&lt;-.sits</a></td>
+<td>Change the labels of a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_labels_summary.html">sits_labels_summary</a></td>
+<td>Inform label distribution of a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_labels_summary.html">sits_labels_summary.sits</a></td>
+<td>Inform label distribution of a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_label_classification.html">sits_label_classification</a></td>
+<td>Build a labelled image from a probability cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_label_classification.html">sits_label_classification.probs_cube</a></td>
+<td>Build a labelled image from a probability cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_lighttae.html">sits_lighttae</a></td>
+<td>Train a model using Lightweight Temporal Self-Attention Encoder</td></tr>
+<tr><td style="width: 25%;"><a href="sits_list_collections.html">sits_list_collections</a></td>
+<td>List the cloud collections supported by sits</td></tr>
+<tr><td style="width: 25%;"><a href="sits_merge.html">sits_merge</a></td>
+<td>Merge two data sets (time series or cubes)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_merge.html">sits_merge.raster_cube</a></td>
+<td>Merge two data sets (time series or cubes)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_merge.html">sits_merge.sits</a></td>
+<td>Merge two data sets (time series or cubes)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_mixture_model.html">sits_mixture_model</a></td>
+<td>Multiple endmember spectral mixture analysis</td></tr>
+<tr><td style="width: 25%;"><a href="sits_mixture_model.html">sits_mixture_model.raster_cube</a></td>
+<td>Multiple endmember spectral mixture analysis</td></tr>
+<tr><td style="width: 25%;"><a href="sits_mixture_model.html">sits_mixture_model.sits</a></td>
+<td>Multiple endmember spectral mixture analysis</td></tr>
+<tr><td style="width: 25%;"><a href="sits_mlp.html">sits_mlp</a></td>
+<td>Train multi-layer perceptron models using torch</td></tr>
+<tr><td style="width: 25%;"><a href="sits_model_export.html">sits_model_export</a></td>
+<td>Export classification models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_model_export.html">sits_model_export.sits_model</a></td>
+<td>Export classification models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_mosaic.html">sits_mosaic</a></td>
+<td>Mosaic classified cubes</td></tr>
+<tr><td style="width: 25%;"><a href="sits_patterns.html">sits_patterns</a></td>
+<td>Find temporal patterns associated to a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_predictors.html">sits_predictors</a></td>
+<td>Obtain predictors for time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_pred_features.html">sits_pred_features</a></td>
+<td>Obtain numerical values of predictors for time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_pred_normalize.html">sits_pred_normalize</a></td>
+<td>Normalize predictor values</td></tr>
+<tr><td style="width: 25%;"><a href="sits_pred_reference.html">sits_pred_reference</a></td>
+<td>Obtain categorical id and predictor labels for time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_pred_reference.html">sits_pred_references</a></td>
+<td>Obtain categorical id and predictor labels for time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_pred_sample.html">sits_pred_sample</a></td>
+<td>Obtain a fraction of the predictors data frame</td></tr>
+<tr><td style="width: 25%;"><a href="sits_reclassify.html">sits_reclassify</a></td>
+<td>Reclassify a classified cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_reclassify.html">sits_reclassify.class_cube</a></td>
+<td>Reclassify a classified cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_reduce_imbalance.html">sits_reduce_imbalance</a></td>
+<td>Reduce imbalance in a set of samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_regularize.html">sits_regularize</a></td>
+<td>Build a regular data cube from an irregular one</td></tr>
+<tr><td style="width: 25%;"><a href="sits_resnet.html">sits_resnet</a></td>
+<td>Train ResNet classification models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_rfor.html">sits_rfor</a></td>
+<td>Train random forest models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_run_examples.html">sits_run_examples</a></td>
+<td>Informs if sits examples should run</td></tr>
+<tr><td style="width: 25%;"><a href="sits_run_tests.html">sits_run_tests</a></td>
+<td>Informs if sits tests should run</td></tr>
+<tr><td style="width: 25%;"><a href="sits_sample.html">sits_sample</a></td>
+<td>Sample a percentage of a time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_segment.html">sits_segment</a></td>
+<td>Segment an image</td></tr>
+<tr><td style="width: 25%;"><a href="sits_select.html">sits_select</a></td>
+<td>Filter bands on a data set (tibble or cube)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_select.html">sits_select.patterns</a></td>
+<td>Filter bands on a data set (tibble or cube)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_select.html">sits_select.raster_cube</a></td>
+<td>Filter bands on a data set (tibble or cube)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_select.html">sits_select.sits</a></td>
+<td>Filter bands on a data set (tibble or cube)</td></tr>
+<tr><td style="width: 25%;"><a href="sits_sgolay.html">sits_sgolay</a></td>
+<td>Filter time series with Savitzky-Golay filter</td></tr>
+<tr><td style="width: 25%;"><a href="sits_smooth.html">sits_smooth</a></td>
+<td>Smooth probability cubes with spatial predictors</td></tr>
+<tr><td style="width: 25%;"><a href="sits_som.html">sits_som</a></td>
+<td>Use SOM for quality analysis of time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_som_clean_samples.html">sits_som_clean_samples</a></td>
+<td>Cleans the samples based on SOM map information</td></tr>
+<tr><td style="width: 25%;"><a href="sits_som_evaluate_cluster.html">sits_som_evaluate_cluster</a></td>
+<td>Evaluate cluster</td></tr>
+<tr><td style="width: 25%;"><a href="sits_som.html">sits_som_map</a></td>
+<td>Use SOM for quality analysis of time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_stats.html">sits_stats</a></td>
+<td>Obtain statistics for all sample bands</td></tr>
+<tr><td style="width: 25%;"><a href="sits_supercells.html">sits_supercells</a></td>
+<td>Segment an image using supercells</td></tr>
+<tr><td style="width: 25%;"><a href="sits_svm.html">sits_svm</a></td>
+<td>Train support vector machine models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_tae.html">sits_tae</a></td>
+<td>Train a model using Temporal Self-Attention Encoder</td></tr>
+<tr><td style="width: 25%;"><a href="sits_tempcnn.html">sits_tempcnn</a></td>
+<td>Train temporal convolutional neural network models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_timeline.html">sits_timeline</a></td>
+<td>Get timeline of a cube or a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_to_csv.html">sits_to_csv</a></td>
+<td>Export a sits tibble metadata to the CSV format</td></tr>
+<tr><td style="width: 25%;"><a href="sits_to_xlsx.html">sits_to_xlsx</a></td>
+<td>Save accuracy assessments as Excel files</td></tr>
+<tr><td style="width: 25%;"><a href="sits_train.html">sits_train</a></td>
+<td>Train classification models</td></tr>
+<tr><td style="width: 25%;"><a href="sits_tuning.html">sits_tuning</a></td>
+<td>Tuning machine learning models hyper-parameters</td></tr>
+<tr><td style="width: 25%;"><a href="sits_tuning_hparams.html">sits_tuning_hparams</a></td>
+<td>Tuning machine learning models hyper-parameters</td></tr>
+<tr><td style="width: 25%;"><a href="sits_uncertainty.html">sits_uncertainty</a></td>
+<td>Estimate classification uncertainty based on probs cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_uncertainty.html">sits_uncertainty.entropy</a></td>
+<td>Estimate classification uncertainty based on probs cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_uncertainty.html">sits_uncertainty.least</a></td>
+<td>Estimate classification uncertainty based on probs cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_uncertainty.html">sits_uncertainty.margin</a></td>
+<td>Estimate classification uncertainty based on probs cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_uncertainty_sampling.html">sits_uncertainty_sampling</a></td>
+<td>Suggest samples for enhancing classification accuracy</td></tr>
+<tr><td style="width: 25%;"><a href="sits_validate.html">sits_validate</a></td>
+<td>Validate time series samples</td></tr>
+<tr><td style="width: 25%;"><a href="sits_values.html">sits_values</a></td>
+<td>Return the values of a set of time series</td></tr>
+<tr><td style="width: 25%;"><a href="sits_variance.html">sits_variance</a></td>
+<td>Calculate the variance of a probability cube</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view.class_cube</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view.data.frame</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view.default</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view.probs_cube</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view.raster_cube</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view.sits</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view.som_map</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_view.html">sits_view.uncertainty_cube</a></td>
+<td>View data cubes and samples in leaflet</td></tr>
+<tr><td style="width: 25%;"><a href="sits_whittaker.html">sits_whittaker</a></td>
+<td>Filter time series with whittaker filter</td></tr>
+<tr><td style="width: 25%;"><a href="sits_xgboost.html">sits_xgboost</a></td>
+<td>Train extreme gradient boosting models</td></tr>
+<tr><td style="width: 25%;"><a href="summary.class_cube.html">summary.class_cube</a></td>
+<td>Summarize data cubes</td></tr>
+<tr><td style="width: 25%;"><a href="summary.probs_cube.html">summary.probs_cube</a></td>
+<td>Summarize data cubes</td></tr>
+<tr><td style="width: 25%;"><a href="summary.raster_cube.html">summary.raster_cube</a></td>
+<td>Summarize data cubes</td></tr>
+<tr><td style="width: 25%;"><a href="summary.sits.html">summary.sits</a></td>
+<td>Summarize sits</td></tr>
+<tr><td style="width: 25%;"><a href="summary.sits_accuracy.html">summary.sits_accuracy</a></td>
+<td>Summarize accuracy matrix for training data</td></tr>
+<tr><td style="width: 25%;"><a href="summary.sits_area_accuracy.html">summary.sits_area_accuracy</a></td>
+<td>Summarize accuracy matrix for area data</td></tr>
+<tr><td style="width: 25%;"><a href="summary.variance_cube.html">summary.variance_cube</a></td>
+<td>Summarize data cubes</td></tr>
+</table>
+
+<h2><a id="misc">-- misc --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="sits-package.html">_PACKAGE</a></td>
+<td>sits</td></tr>
+<tr><td style="width: 25%;"><a href="tick-sits_labels-set-tick.html">`sits_labels&lt;-`</a></td>
+<td>Change the labels of a set of time series</td></tr>
+</table>
+</div></body></html>

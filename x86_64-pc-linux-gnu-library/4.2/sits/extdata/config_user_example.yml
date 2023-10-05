@@ -1,0 +1,12 @@
+processing_bloat        : 5
+
+rstac_pagination_limit  : 999
+
+gdal_creation_options   : ["COMPRESS=LZW", "BIGTIFF=YES"]
+
+colors:
+    Cropland:           "khaki"
+    Deforestation:      "sienna"
+    Forest :            "darkgreen"
+    Grassland :         "lightgreen"
+    NonForest:          "lightsteelblue1"

@@ -1,0 +1,144 @@
+`sits_labels<-`         Change the labels of a set of time series
+cerrado_2classes        Samples of classes Cerrado and Pasture
+plot                    Plot time series
+plot.class_cube         Plot classified images
+plot.geo_distances      Make a kernel density plot of samples
+                        distances.
+plot.patterns           Plot patterns that describe classes
+plot.predicted          Plot time series predictions
+plot.probs_cube         Plot probability cubes
+plot.raster_cube        Plot RGB data cubes
+plot.rfor_model         Plot Random Forest model
+plot.segments           Plot Segments
+plot.sits_accuracy      Plot confusion matrix
+plot.sits_cluster       Plot a dendrogram cluster
+plot.som_evaluate_cluster
+                        Plot confusion between clusters
+plot.som_map            Plot a SOM map
+plot.torch_model        Plot Torch (deep learning) model
+plot.uncertainty_cube   Plot uncertainty cubes
+plot.variance_cube      Plot variance cubes
+plot.xgb_model          Plot XGB model
+point_mt_6bands         A time series sample with data from 2000 to
+                        2016
+samples_l8_rondonia_2bands
+                        Samples of Amazon tropical forest biome for
+                        deforestation analysis
+samples_modis_ndvi      Samples of nine classes for the state of Mato
+                        Grosso
+sits_accuracy           Assess classification accuracy (area-weighted
+                        method)
+sits_apply              Apply a function on a set of time series
+sits_as_sf              Return a sits_tibble or raster_cube as an sf
+                        object.
+sits_bands              Get the names of the bands
+sits_bbox               Get the bounding box of the data
+sits_classify           Classify time series or data cubes
+sits_cluster_clean      Removes labels that are minority in each
+                        cluster.
+sits_cluster_dendro     Find clusters in time series samples
+sits_cluster_frequency
+                        Show label frequency in each cluster produced
+                        by dendrogram analysis
+sits_colors             Function to retrieve sits color table
+sits_colors_reset       Function to reset sits color table
+sits_colors_set         Function to set sits color table
+sits_colors_show        Function to show colors in SITS
+sits_combine_predictions
+                        Estimate ensemble prediction based on list of
+                        probs cubes
+sits_confidence_sampling
+                        Suggest high confidence samples to increase the
+                        training set.
+sits_config             Configure parameters for sits package
+sits_config_show        Show current sits configuration
+sits_cube               Create data cubes from image collections
+sits_cube_copy          Copy the images of a cube to a local directory
+sits_factory_function   Create a closure for calling functions with and
+                        without data
+sits_filter             Filter time series with smoothing filter
+sits_formula_linear     Define a linear formula for classification
+                        models
+sits_formula_logref     Define a loglinear formula for classification
+                        models
+sits_geo_dist           Compute the minimum distances among samples and
+                        prediction points.
+sits_get_data           Get time series from data cubes and cloud
+                        services
+sits_join_segments      Return segments from a classified set of time
+                        series
+sits_kfold_validate     Cross-validate time series samples
+sits_label_classification
+                        Build a labelled image from a probability cube
+sits_labels             Get labels associated to a data set
+sits_labels_summary     Inform label distribution of a set of time
+                        series
+sits_lighttae           Train a model using Lightweight Temporal
+                        Self-Attention Encoder
+sits_list_collections   List the cloud collections supported by sits
+sits_merge              Merge two data sets (time series or cubes)
+sits_mixture_model      Multiple endmember spectral mixture analysis
+sits_mlp                Train multi-layer perceptron models using torch
+sits_model_export       Export classification models
+sits_mosaic             Mosaic classified cubes
+sits_patterns           Find temporal patterns associated to a set of
+                        time series
+sits_pred_features      Obtain numerical values of predictors for time
+                        series samples
+sits_pred_normalize     Normalize predictor values
+sits_pred_reference     Obtain categorical id and predictor labels for
+                        time series samples
+sits_pred_sample        Obtain a fraction of the predictors data frame
+sits_predictors         Obtain predictors for time series samples
+sits_reclassify         Reclassify a classified cube
+sits_reduce_imbalance   Reduce imbalance in a set of samples
+sits_regularize         Build a regular data cube from an irregular one
+sits_resnet             Train ResNet classification models
+sits_rfor               Train random forest models
+sits_run_examples       Informs if sits examples should run
+sits_run_tests          Informs if sits tests should run
+sits_sample             Sample a percentage of a time series
+sits_segment            Segment an image
+sits_select             Filter bands on a data set (tibble or cube)
+sits_sgolay             Filter time series with Savitzky-Golay filter
+sits_smooth             Smooth probability cubes with spatial
+                        predictors
+sits_som                Use SOM for quality analysis of time series
+                        samples
+sits_som_clean_samples
+                        Cleans the samples based on SOM map information
+sits_som_evaluate_cluster
+                        Evaluate cluster
+sits_stats              Obtain statistics for all sample bands
+sits_supercells         Segment an image using supercells
+sits_svm                Train support vector machine models
+sits_tae                Train a model using Temporal Self-Attention
+                        Encoder
+sits_tempcnn            Train temporal convolutional neural network
+                        models
+sits_timeline           Get timeline of a cube or a set of time series
+sits_to_csv             Export a sits tibble metadata to the CSV format
+sits_to_xlsx            Save accuracy assessments as Excel files
+sits_train              Train classification models
+sits_tuning             Tuning machine learning models hyper-parameters
+sits_tuning_hparams     Tuning machine learning models hyper-parameters
+sits_uncertainty        Estimate classification uncertainty based on
+                        probs cube
+sits_uncertainty_sampling
+                        Suggest samples for enhancing classification
+                        accuracy
+sits_validate           Validate time series samples
+sits_values             Return the values of a set of time series
+sits_variance           Calculate the variance of a probability cube
+sits_view               View data cubes and samples in leaflet
+sits_whittaker          Filter time series with whittaker filter
+sits_xgboost            Train extreme gradient boosting models
+sits-package            sits
+summary.class_cube      Summarize data cubes
+summary.probs_cube      Summarize data cubes
+summary.raster_cube     Summarize data cubes
+summary.sits            Summarize sits
+summary.sits_accuracy   Summarize accuracy matrix for training data
+summary.sits_area_accuracy
+                        Summarize accuracy matrix for area data
+summary.variance_cube   Summarize data cubes
